@@ -26,4 +26,5 @@ func TestBinaryTreePreorderTraversal(t *testing.T) {
 	root := CreateRoot([]interface{}{1, 2, 3, 4, 5, nil, 8, nil, nil, 6, 7, 9})
 	result := preorderTraversal(root)
 	t.Log(result)
+	
 }
